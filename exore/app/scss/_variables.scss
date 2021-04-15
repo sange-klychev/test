@@ -1,0 +1,17 @@
+// Variables
+
+$basic-black: #000000;
+$basic-white: #ffffff;
+$basic-light: #F6F6F6;
+$orange: #FA4A0C;
+$basic-text: #252B42;
+$second-text: #737373;
+
+@mixin poppins600 {
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+@mixin poppins700 {
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+}

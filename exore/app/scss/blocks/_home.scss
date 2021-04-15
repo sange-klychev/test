@@ -1,0 +1,61 @@
+// Home
+
+.home{
+  background-image: url(../../img/home-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 73px 0 145px;
+  display: grid;
+  grid-template-columns:  1fr;
+  text-align: center;
+  &__subtitle{
+    color: $basic-white;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  &__title{
+    @include poppins700;
+    color: $basic-white;
+    font-size: 58px;
+  }
+  &__descr{
+    font-size: 24px;
+    font-weight: 500;
+    color: $basic-light;
+  }
+  &__btns{
+    margin-top: 55px;
+  }
+}
+
+@media (max-width: 768px){
+  .home{
+    &__title{
+      font-size: 36px;
+    }
+    .btn-wrapper{
+      grid-template-columns: min-content;
+      row-gap: 17px;
+    }
+  }
+}
+@media (max-width: 490px) {
+  .home {
+    background-image: none;
+    background-color: #FAFAFA;
+    &__subtitle{
+      color: $second-text;
+    }
+    &__title {
+      color: $basic-text;
+    }
+    &__descr{
+      color: $second-text;
+    }
+    .btn.transparent{
+      border-color: $orange;
+      color: $orange;
+    }
+  }
+}

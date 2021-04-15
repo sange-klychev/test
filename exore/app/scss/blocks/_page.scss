@@ -1,0 +1,15 @@
+//Page
+
+.page {
+    background-color: $basic-white;
+    color: $basic-text;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    &__body{
+        overflow-x: hidden;
+    }
+    &.popup--open{
+        overflow: hidden;
+    }
+}

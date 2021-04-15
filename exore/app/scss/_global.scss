@@ -1,0 +1,74 @@
+// Global
+
+a{
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+ul,
+ol{
+    list-style: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select{
+    border: none;
+    font-family: inherit;
+    outline: transparent;
+}
+
+.container{
+    max-width: 1370px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.btn{
+    padding: 16px 50px;
+    color: $basic-white;
+    border-radius: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    white-space: nowrap;
+    cursor: pointer;
+    &-wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, min-content);
+        column-gap: 34px;
+        justify-content: center;
+    }
+    &.transparent{
+        border: 1px solid $basic-white;
+        background-color: transparent;
+    }
+    &.orange{
+        background-color: $orange;
+    }
+}
+
+.title{
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    margin-bottom: 10px;
+    &__description{
+        font-weight: 500;
+        font-size: 24px;
+        color: $second-text;
+        letter-spacing: 0.2px;
+    }
+}
+.subtitle{
+    color: $orange;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+}

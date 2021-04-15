@@ -1,0 +1,33 @@
+// Step box
+
+.step-box{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  &__img{
+    justify-self: end;
+  }
+  &__content{
+    display: grid;
+    justify-self: start;
+    text-align: left;
+    max-width: 570px;
+  }
+}
+
+@media (max-width: 768px){
+  .step-box{
+    grid-template-columns: 1fr;
+    &__content{
+      text-align: center;
+      max-width: 100%;
+      order: -1;
+      justify-self: center;
+      row-gap: 25px;
+    }
+    &__img{
+      justify-self: center;
+      transform: translateX(10%);
+    }
+  }
+}

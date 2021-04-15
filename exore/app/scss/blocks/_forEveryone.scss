@@ -1,0 +1,10 @@
+// For everyone
+
+.for-everyone{
+  display: flex;
+  &__img{
+    margin: auto;
+    transform: translate(-10%, -32%);
+    pointer-events: none;
+  }
+}
