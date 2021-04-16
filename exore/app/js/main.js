@@ -27,7 +27,7 @@ window.addEventListener('DOMContentLoaded', () => {
       togglePopup();
     })
   })
-  document.addEventListener('click', e => {
+  document.body.addEventListener('click', e => {
     if(!e.path.includes(popup)){
       popupWrapper.classList.remove('popup--open');
       page.classList.remove('popup--open');
