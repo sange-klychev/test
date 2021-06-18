@@ -1,0 +1,21 @@
+// Tagline
+
+.tagline{
+  grid-column: span 4;
+  display: flex;
+  justify-content: center;
+  transition: transform 7s ease-in-out;
+  position: relative;
+  z-index: 1;
+  &__span{
+    text-transform: uppercase;
+    font-size: 280px;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+  }
+  &__span:nth-child(1){
+    margin-right: 280px;
+    color: #929292;
+  }
+}

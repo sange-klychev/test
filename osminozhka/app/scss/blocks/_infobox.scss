@@ -1,0 +1,18 @@
+// Infobox
+
+.infobox{
+  &__subtitle{
+    margin-bottom: 20px;
+  }
+  &__title{
+    text-transform: uppercase;
+    font-size: 120px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  &__descr{
+    max-width: 810px;
+    line-height: 1.8;
+    margin-bottom: 70px;
+  }
+}

@@ -1,0 +1,17 @@
+// browser update
+
+#browserupdate{
+  display: none;
+  padding-top: 100px;
+  text-align: center;
+  color: $basic-black;
+  &.show{
+    display: block;
+  }
+  p{
+    margin-bottom: 30px;
+  }
+  a + a{
+    margin-left: 30px;
+  }
+}

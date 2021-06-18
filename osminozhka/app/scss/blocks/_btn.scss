@@ -1,0 +1,31 @@
+// Button
+
+.btn{
+  padding: 30px 60px;
+  background-color: $pink;
+  font-size: 25px;
+  font-weight: 500;
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  &::before {
+    z-index: -99;
+    --size: 0;
+    content: '';
+    position: absolute;
+    left: var(--x);
+    top: var(--y);
+    width: var(--size);
+    height: var(--size);
+    background: rgba($basic-black, .8);
+    border-radius: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    transition: width .5s ease, height .5s ease;
+  }
+  &:hover::before {
+    --size: 800px;
+  }
+}

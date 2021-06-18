@@ -1,0 +1,12 @@
+// Offer
+
+.offer{
+  grid-column-start: 3;
+  &__text{
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 1;
+  }
+}

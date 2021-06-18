@@ -1,0 +1,12 @@
+// Web section
+
+.web{
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background-color: $gray;
+  padding-left: 50px;
+  background-image: url(../../img/web-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+}

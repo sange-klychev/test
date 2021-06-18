@@ -1,0 +1,12 @@
+// Languages
+
+.languages{
+  display: flex;
+  font-size: 20px;
+  &__btn{
+    cursor: pointer;
+  }
+  span{
+    pointer-events: none;
+  }
+}
