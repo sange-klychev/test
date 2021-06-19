@@ -1,0 +1,32 @@
+// Global
+
+a{
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+ul,
+ol{
+  list-style: none;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea{
+  border: none;
+  font: inherit;
+  background: transparent;
+  color: inherit;
+}
+
+// .container{
+//     max-width: 100vh;
+//     padding: 0 50px;
+//     margin: 0 auto;
+// }
